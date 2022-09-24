@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="keywords" content="Melon , Melon , Melon-eg , Melon eg , Web Design, Website Design, Egypt, CMS, content management software, Web Development, webgui, web content management, web publishing,content server, content management systems, content management, publishing of web content, website, content management support, dynamic content, dynamic content editor, e-business information, ebusiness solutions, e-commerce software,  internet, intranet,   portal, portal content management, site cms, template, web authoring software, web authoring solution, web publishing tools,   asset management, file management,web design in egypt, web design ,egyptian company,website,web hosting,intranet,hosting,web serivces,cairo,web development,internet,e-commerce,search engines,domain name, Egyptian, Arab, Arabic, web, banners, advertising, solutions, graphics, flash, Egypt, Alexandria,  develop,design, logo design, portal design,web programming, tanta, مصر، القاهرة، الإسكندرية، تصميم، تصميم مواقع، إستضافة مواقع، مقدمات فلاش، أنظمة إدارة المواقع، تجارة إلكترونية، بريد إلكترونى، روابط دعائية، بانرز، حملات دعائية، شركة تصميم وب" />
+    <meta
+      name="description"
+      content="Best Digital Company for Dynamic Website Development in Cairo, Egyp"
+    />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Melon</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://ecodemo-1.Melon-eg.com/img/icon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body style="overflow-x:hidden">
+    <div>
+        <div id="preloader"></div>
+    
+        <!-- ==================== End Loading ==================== -->
+    
+        <!-- ==================== Start progress-scroll-button ==================== -->
+    
+        <div class="progress-wrap cursor-pointer">
+            <svg class="progress-circle svg-content" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.949 511.949"><path d="M386.235 248.308L140.902 2.975c-4.267-4.053-10.987-3.947-15.04.213a10.763 10.763 0 000 14.827l237.76 237.76-237.76 237.867c-4.267 4.053-4.373 10.88-.213 15.04 4.053 4.267 10.88 4.373 15.04.213l.213-.213 245.333-245.333a10.624 10.624 0 000-15.041z"/></svg>
+          
+        </div>
+    
+        <!-- ==================== End progress-scroll-button ==================== -->
+    
+        <!-- ==================== Start cursor ==================== -->
+    
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+    
+        <!-- ==================== End cursor ==================== -->
+    
+        <!-- ==================== Start Navbar ==================== -->
+    
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- Logo -->
+            <a class="logo" href="#">
+              <img src="/img/MelonFullSmall.png" alt="logo" />
+            </a>
+    
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.97 384.97"><path d="M12.03 120.303h360.909c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03zM372.939 180.455H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.909c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03zM372.939 264.667H132.333c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h240.606c6.641 0 12.03-5.39 12.03-12.03.001-6.641-5.389-12.03-12.03-12.03z"/></svg>
+            </button>
+    
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul v-if="$route.name == 'index'" class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#testemonials">Testemonials</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#works">Works</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+            <!-- ==================== Start Slider ==================== -->
+        
+            <header class="slider slider-prlx">
+              <div class="swiper-container parallax-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-img valign"
+                      data-background="/img/Hero1.jpg"
+                      data-overlay-dark="6"
+                      
+                    >
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="caption dig">
+                              <h1 data-splitting>
+                                Creating
+                                <div class="tline">the tech of the future</div>
+                              </h1>
+                              <a href="#works" class="simple-btn mt-50">
+                                <span>Discover more</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-img valign"
+                      data-background="/img/Hero2.jpg"
+                      data-overlay-dark="6"
+                    >
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="caption dig">
+                              <h1 data-splitting>
+                                Building
+                                <div class="tline">innovative solutions</div>
+                              </h1>
+                              <a href="#works" class="simple-btn mt-50">
+                                <span>View more</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-img valign"
+                      data-background="img/Hero3.jpg"
+                      data-overlay-dark="6"
+                    >
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="caption dig">
+                              <h1 data-splitting>
+                                Unique
+                                <div class="tline">Designs</div>
+                              </h1>
+                              <a href="#works" class="simple-btn mt-50">
+                                <span>Discover more</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+        
+                <!-- slider setting -->
+                <div class="setone setwo">
+                  <div
+                    class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
+                  >
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.949 511.949"><path d="M386.235 248.308L140.902 2.975c-4.267-4.053-10.987-3.947-15.04.213a10.763 10.763 0 000 14.827l237.76 237.76-237.76 237.867c-4.267 4.053-4.373 10.88-.213 15.04 4.053 4.267 10.88 4.373 15.04.213l.213-.213 245.333-245.333a10.624 10.624 0 000-15.041z"/></svg>
+                  </div>
+                  <div
+                    class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.949 511.949"><path d="M386.235 248.308L140.902 2.975c-4.267-4.053-10.987-3.947-15.04.213a10.763 10.763 0 000 14.827l237.76 237.76-237.76 237.867c-4.267 4.053-4.373 10.88-.213 15.04 4.053 4.267 10.88 4.373 15.04.213l.213-.213 245.333-245.333a10.624 10.624 0 000-15.041z"/></svg>
+                  </div>
+                </div>
+                <div class="swiper-pagination top botm custom-font"></div>
+        
+                <div class="social-icon">
+                  <a href="https://www.facebook.com/pg/Meloneg" target="_blank">
+                    <svg class="facebook-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M512 256c0 141.387-114.613 256-256 256S0 397.387 0 256 114.613 0 256 0s256 114.613 256 256zm0 0" fill="#4a7aff"/><path d="M267.234 511.738C403.406 505.86 512 393.618 512 256c0-.996-.027-1.988-.04-2.984L334.263 75.312l-190 198.594 105.566 105.567-48.676 66.183zm0 0" fill="#0053bf"/><path d="M334.262 75.313v57.968s-66.555-9.66-66.555 33.278v42.937h60.113l-7.511 65.48h-52.602v170.68h-66.555v-170.68l-56.894-1.074v-64.406h55.82v-49.379s-3.683-73.457 68.703-86.949c30.059-5.605 65.48 2.145 65.48 2.145zm0 0" fill="#fff"/><path d="M334.262 133.281V75.312s-35.422-7.75-65.48-2.144a101.494 101.494 0 00-13.137 3.348v369.14h12.062v-170.68h52.598l7.515-65.48h-60.113V166.56c0-42.937 66.555-33.278 66.555-33.278zm0 0" fill="#dce1eb"/></svg>
+                  </a>
+                  <a href="https://www.behance.net/Melon" target="_blank">
+                    <svg class="sm-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.196 112.196"><circle cx="56.098" cy="56.098" r="56.098" fill="#4176fa"/><path d="M76.209 46.341c-16.203 0-16.224 16.142-16.224 16.225 0 0-1.11 16.162 16.224 16.162 0 0 14.456.822 14.456-11.248h-7.423s.246 4.544-6.786 4.544c0 0-7.423.494-7.423-7.341h21.879s2.406-18.342-14.703-18.342zM68.95 59.028s.905-6.498 7.424-6.498c6.539 0 6.436 6.498 6.436 6.498H68.95zm-18.546-4.153s6.436-.473 6.436-8.04c0-7.546-5.264-11.248-11.947-11.248H22.91v42.256h21.981s13.428.412 13.428-12.481c.001 0 .577-10.487-7.915-10.487zM32.596 43.092h12.296s2.982 0 2.982 4.4-1.748 5.038-3.743 5.038H32.596v-9.438zm11.68 27.246h-11.68v-11.31h12.296s4.463-.041 4.442 5.819c0 4.936-3.31 5.45-5.058 5.491zM67.12 38.075v5.203h17.438v-5.203H67.12z" fill="#f1f2f2"/></svg>
+                  </a>
+                  <a href="https://www.instagram.com/melontechnologies/" target="_blank">
+                    <svg class="sm-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551.034 551.034"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><path d="M386.878 0H164.156C73.64 0 0 73.64 0 164.156v222.722c0 90.516 73.64 164.156 164.156 164.156h222.722c90.516 0 164.156-73.64 164.156-164.156V164.156C551.033 73.64 477.393 0 386.878 0zM495.6 386.878c0 60.045-48.677 108.722-108.722 108.722H164.156c-60.045 0-108.722-48.677-108.722-108.722V164.156c0-60.046 48.677-108.722 108.722-108.722h222.722c60.045 0 108.722 48.676 108.722 108.722v222.722z" fill="url(#a)"/><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><path d="M275.517 133C196.933 133 133 196.933 133 275.516s63.933 142.517 142.517 142.517S418.034 354.1 418.034 275.516 354.101 133 275.517 133zm0 229.6c-48.095 0-87.083-38.988-87.083-87.083s38.989-87.083 87.083-87.083c48.095 0 87.083 38.988 87.083 87.083 0 48.094-38.989 87.083-87.083 87.083z" fill="url(#b)"/><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57" x2="418.31" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><circle cx="418.31" cy="134.07" r="34.15" fill="url(#c)"/></svg>
+                  </a>
+                </div>
+              </div>
+            </header>
+        
+            <!-- ==================== End Slider ==================== -->
+        
+            <!-- ==================== Start blc-sec ==================== -->
+        
+            <section id="about" class="blc-sec section-padding pb-0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="intro md-mb30">
+                      <div class="sub-title">
+                        <h6>Know Us Better</h6>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <h2 class="extra-title wow" data-splitting>
+                        we're the engine that converts data on papers to real life.
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 valign">
+                    <div class="full-width">
+                      <p class="wow txt" data-splitting>
+                        We never underestimate any part of each project as they're all essential to meet the ultimate goal. you'll be engaged with our positive and enthusiastic attitude.
+                      </p>
+                      <a
+                        href="#works"
+                        class="simple-btn custom-font mt-20 wow"
+                        data-splitting
+                        ><span>Discover our work</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+            <!-- ==================== End blc-sec ==================== -->
+        
+          <!-- ==================== Start Services ==================== -->
+        
+            <section id="services" class="services section-padding">
+              <div class="container">
+                <div class="row rone">
+                  <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s" >
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        Website <br />
+                        Development
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 wow fadeInUp offset-lg-1" data-wow-delay=".4s">
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        UI / UX <br /> DESIGN
+                        
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 wow fadeInUp offset-lg-1" data-wow-delay=".4s">
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                         Mobile App <br />Development
+                        
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="row rtwo">
+                  <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s" >
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        Search Engine  <br />Optimization
+                        
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 wow fadeInUp offset-lg-1" data-wow-delay=".4s">
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        Ecommerce  <br /> Strategy
+                        
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 wow fadeInUp offset-lg-1" data-wow-delay=".4s">
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        Business <br /> Solutions
+                        
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div>
+                  <!-- <div
+                    v-for="service in services2"
+                    :key="service.id"
+                    class="col-lg-3 wow fadeInUp"
+                    :class="{ 'offset-lg-1': service.id > 1 }"
+                    data-wow-delay=".4s"
+                  >
+                    <div class="mas-item">
+                      <span class="icon pe-7s-monitor"></span>
+                      <h6>
+                        {{ service.first }} <br />
+                        {{ service.second }}
+                      </h6>
+                      <div class="bg-color"></div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </section>
+        
+            <!-- ==================== End Services ==================== -->
+        
+            <!-- ==================== Start block-sec ==================== -->
+        
+            <section id="testemonials" class="block-sec">
+              <div
+                class="background bg-img section-padding pb-0"
+                data-background="http://ecodemo-1.Melon-eg.com/img/1.jpg"
+                data-overlay-dark="8"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="vid-area">
+                        <div class="cont">
+                          <h3 class="wow" data-splitting>
+                            Our customers are obsessed with our products, and now it's your turn!
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                      <div class="testim-box">
+                        <div class="head-box">
+                          <h6 class="wow fadeIn" data-wow-delay=".5s">
+                            our success partners
+                          </h6>
+                          <h4 class="wow fadeInLeft" data-wow-delay=".5s">
+                            What did our customers say about us?
+                          </h4>
+                        </div>
+                        <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
+                          <div class="item">
+                            <p>
+                            I’ve had some questionable experiences with other web agencies in the past, but Melon has hands down been the best web company we’ve worked with
+                            </p>
+                            <div class="info">
+                              <div class="img">
+                                <div class="img-box">
+                                  <!--<img src="img/clients/1.jpg" alt="" />-->
+                                </div>
+                              </div>
+                              <div class="cont">
+                                <div class="author">
+                                  <h6 class="author-name custom-font">Aya Elshazly</h6>
+                                  <span class="author-details"
+                                    >Co-founder</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <p>
+                              Melon team is absolutely fantastic to work with and I would highly recommend them no matter what type of project you have.
+                            </p>
+                            <div class="info">
+                              <div class="img">
+                                <div class="img-box">
+                                  <!--<img src="img/clients/2.jpg" alt="" />-->
+                                </div>
+                              </div>
+                              <div class="cont">
+                                <div class="author">
+                                  <h6 class="author-name custom-font">Ali Ashmawy</h6>
+                                  <span class="author-details"
+                                    >Co-founder</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <p>
+                              if you're looking for someone who has world-class expertise, a technical team to match anyone in the business, it is Melon.
+                            </p>
+                            <div class="info">
+                              <div class="img">
+                                <div class="img-box">
+                                  <!--<img src="img/clients/3.jpg" alt="" />-->
+                                </div>
+                              </div>
+                              <div class="cont">
+                                <div class="author">
+                                  <h6 class="author-name custom-font">Mohamed Emam</h6>
+                                  <span class="author-details"
+                                    >Co-founder</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+            <!-- ==================== End block-sec ==================== -->
+        
+            <!-- ==================== Start Skills Circle ==================== -->
+        
+            <section class="skills-circle sub-bg pt-50 pb-50">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="item wow fadeInLeft" data-wow-delay=".6">
+                            <div class="skill" data-value="0.9">
+                              <span class="custom-font">90%</span>
+                            </div>
+                            <div class="cont">
+                              <span>Project</span>
+                              <h6>Consulting</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="item wow fadeInLeft" data-wow-delay=".3">
+                            <div class="skill" data-value="0.75">
+                              <span class="custom-font">95%</span>
+                            </div>
+                            <div class="cont">
+                              <span>App</span>
+                              <h6>Development</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+            <!-- ==================== End Skills Circle ==================== -->
+        
+            <!-- ==================== Start works ==================== -->
+        
+            <section id="works" class="portfolio section-padding pb-70">
+              <div class="container">
+                <div class="sec-head custom-font">
+                  <h6>Portfolio</h6>
+                  <h3>Our Works.</h3>
+                  <span class="tbg text-right">Portfolio</span>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <!-- filter links -->
+                  <div class="filtering text-center col-12">
+                    <div class="filter">
+                      <span data-filter="*" class="active">All</span>
+                      <span data-filter=".mobile">Mobile App</span>
+                      <span data-filter=".website">Webdesign</span>
+                      <span data-filter=".identity">Identity</span>
+                    </div>
+                  </div>
+        
+                  <div class="gallery full-width">
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items mobile wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="/img/work-01.jpg" class="imago wow">
+                          <img src="img/work-01.jpg" alt="Cinematech Mobile app" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Cinematech</h6>
+                        <span>ui / ux , mobile development</span>
+                      </div>
+                    </div>
+        
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items mobile lg-mr wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="/img/work-02.jpg" class="imago wow">
+                          <img src="/img/work-02.jpg" alt="Kids App" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Kids App</h6>
+                        <span>ui / ux , mobile development</span>
+                      </div>
+                    </div>
+        
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items website wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="/img/work-03.jpg" class="imago wow">
+                          <img src="/img/work-03.jpg" alt="Almomaiz Hospital website" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Almomaiz Hospital</h6>
+                        <span>web design , web development</span>
+                      </div>
+                    </div>
+        
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items website wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="img/work-04.jpg" class="imago wow">
+                          <img src="/img/work-04.jpg" alt="Eco Racing website" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Eco Racing</h6>
+                        <span>web design , web development</span>
+                      </div>
+                    </div>
+        
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items identity wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="/img/work-05.jpg" class="imago wow">
+                          <img src="/img/work-05.jpg" alt="Adawy Group identity design" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Adawy Group</h6>
+                        <span>Identity</span>
+                      </div>
+                    </div>
+        
+                    <!-- gallery item -->
+                    <div
+                      class="col-lg-4 col-md-6 items identity wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      <div class="item-img">
+                        <a href="#" data-featherlight="/img/work-06.jpg" class="imago wow">
+                          <img src="/img/work-06.jpg" alt="Ginger identity" />
+                          <div class="item-img-overlay"></div>
+                        </a>
+                      </div>
+                      <div class="cont">
+                        <h6>Ginger</h6>
+                        <span>Identity</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <LightBox
+                  ref="galerylightbox"
+                  :media="projects"
+                  :show-caption="true"
+                  :show-light-box="false"
+                ></LightBox> -->
+              </div>
+            </section>
+        
+            <!-- ==================== End works ==================== -->
+        
+            <!-- ==================== Start clients Brands ==================== -->
+        
+            <section id="clients" class="clients section-padding sub-bg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 valign">
+                    <div class="sec-head custom-font mb-0">
+                      <h6>Clients</h6>
+                      <h3>
+                        Our <br />
+                        Clients.
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div>
+                      <div class="row bord">
+                        <div
+                          class="col-md-3 col-6 brands"
+                        >
+                          <div class="item wow fadeIn" data-wow-delay=".3s">
+                            <div class="img">
+                              <img src="/img/RCorn.png" alt="readerscorner" />
+                              <a href="http://readerscorner.co" target="_blank" class="link" data-splitting>readerscorner.co</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                        class="col-md-3 col-6 brands"
+                      >
+                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                          <div class="img">
+                            <img src="/img/Ctech.png" alt="cinema tech" />
+                            <a href="http://mycinematech.com" target="_blank" class="link" data-splitting>mycinematech.com</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                      class="col-md-3 col-6 brands"
+                    >
+                      <div class="item wow fadeIn" data-wow-delay=".3s">
+                        <div class="img">
+                          <img src="http://eco-racing.com.eg/images/logo-hor.png" alt="eco racing" />
+                          <a href="http://eco-racing.com.eg" target="_blank" class="link" data-splitting>eco-racing.com.eg</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                    class="col-md-3 col-6 brands"
+                  >
+                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                      <div class="img">
+                        <img src="/img/badeel.png" alt="ealam badeel" />
+                        <a href="http://ealambadel.com" target="_blank" class="link" data-splitting>ealambadel.com</a>
+                      </div>
+                    </div>
+                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+            <!-- ==================== End clients Brands ==================== -->
+        
+            <!-- ==================== Start call-to-action ==================== -->
+        
+            <section class="contact-sec section-padding" id="contact">
+              <div class="container">
+                <div class="sec-head custom-font text-center">
+                  <h6 class="wow fadeIn" data-wow-delay=".5s">Get In Touch</h6>
+                  <h3 class="wow" data-splitting>Contact Us.</h3>
+                  <span class="tbg">Contact</span>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-lg-10">
+                    <div class="form wow fadeInUp" data-wow-delay=".5s">
+                      <form
+                        id="contact-form"
+                        method="post"
+                      >
+                        <div class="messages"></div>
+        
+                        <div class="controls">
+                          <div class="row">
+                            <div class="col-lg-4">
+                              <div class="form-group">
+                                <input
+                                  id="form_name"
+                                  type="text"
+                                  placeholder="Name"
+                                  name="name"
+                                />
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="form-group">
+                                <input
+                                  id="form_email"
+                                  type="email"
+                                  placeholder="Email"
+                                  name="email"
+                                />
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="form-group">
+                                <input
+                                  id="form_subject"
+                                  type="text"
+                                  placeholder="Subject"
+                                  name="subject"
+                                />
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-group">
+                                <textarea
+                                  id="form_message"
+                                  name="msg"
+                                  placeholder="Message"
+                                  rows="4"
+                                  required="required"
+                                ></textarea>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="text-center">
+                                <button
+                                  type="submit"
+                                  class="simple-btn custom-font pointer cursor-pointer"
+                                >
+                                  <span>Send Message</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <footer class="footer-half sub-bg section-padding pb-0">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont">
+                        <div class="logo">
+                          <a href="" class="pointer">
+                            <img src="/img/MelonFullLogoLight.png" alt="Melon logo" />
+                          </a>
+                        </div>
+                        <div class="con-info custom-font">
+                          <ul>
+                            <li><span>phone : </span> 01022052546</li>
+                            <li><span>email : </span> info@melon.com.eg</li>
+                            <li><span>address : </span>Villa no. 1, 11th District, 3rd neighborhood, Sheikh Zayed city, Egypt</li>
+                          </ul>
+                        </div>
+                        <div class="social-icon">
+                            <h6 class="custom-font stit simple-btn">Follow Us</h6>
+                            <div class="social">
+                              <a class="icon" href="https://www.facebook.com/pg/Meloneg" target="_blank">
+                                <svg class="facebook-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M512 256c0 141.387-114.613 256-256 256S0 397.387 0 256 114.613 0 256 0s256 114.613 256 256zm0 0" fill="#4a7aff"/><path d="M267.234 511.738C403.406 505.86 512 393.618 512 256c0-.996-.027-1.988-.04-2.984L334.263 75.312l-190 198.594 105.566 105.567-48.676 66.183zm0 0" fill="#0053bf"/><path d="M334.262 75.313v57.968s-66.555-9.66-66.555 33.278v42.937h60.113l-7.511 65.48h-52.602v170.68h-66.555v-170.68l-56.894-1.074v-64.406h55.82v-49.379s-3.683-73.457 68.703-86.949c30.059-5.605 65.48 2.145 65.48 2.145zm0 0" fill="#fff"/><path d="M334.262 133.281V75.312s-35.422-7.75-65.48-2.144a101.494 101.494 0 00-13.137 3.348v369.14h12.062v-170.68h52.598l7.515-65.48h-60.113V166.56c0-42.937 66.555-33.278 66.555-33.278zm0 0" fill="#dce1eb"/></svg>
+                              </a>
+                              <a class="icon" href="https://www.behance.net/Melon" target="_blank">
+                                 <svg class="sm-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.196 112.196"><circle cx="56.098" cy="56.098" r="56.098" fill="#4176fa"/><path d="M76.209 46.341c-16.203 0-16.224 16.142-16.224 16.225 0 0-1.11 16.162 16.224 16.162 0 0 14.456.822 14.456-11.248h-7.423s.246 4.544-6.786 4.544c0 0-7.423.494-7.423-7.341h21.879s2.406-18.342-14.703-18.342zM68.95 59.028s.905-6.498 7.424-6.498c6.539 0 6.436 6.498 6.436 6.498H68.95zm-18.546-4.153s6.436-.473 6.436-8.04c0-7.546-5.264-11.248-11.947-11.248H22.91v42.256h21.981s13.428.412 13.428-12.481c.001 0 .577-10.487-7.915-10.487zM32.596 43.092h12.296s2.982 0 2.982 4.4-1.748 5.038-3.743 5.038H32.596v-9.438zm11.68 27.246h-11.68v-11.31h12.296s4.463-.041 4.442 5.819c0 4.936-3.31 5.45-5.058 5.491zM67.12 38.075v5.203h17.438v-5.203H67.12z" fill="#f1f2f2"/></svg>
+                                </a>
+                                <a class="icon" href="https://www.instagram.com/Melontechnologies/" target="_blank">
+                                <svg class="sm-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551.034 551.034"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><path d="M386.878 0H164.156C73.64 0 0 73.64 0 164.156v222.722c0 90.516 73.64 164.156 164.156 164.156h222.722c90.516 0 164.156-73.64 164.156-164.156V164.156C551.033 73.64 477.393 0 386.878 0zM495.6 386.878c0 60.045-48.677 108.722-108.722 108.722H164.156c-60.045 0-108.722-48.677-108.722-108.722V164.156c0-60.046 48.677-108.722 108.722-108.722h222.722c60.045 0 108.722 48.676 108.722 108.722v222.722z" fill="url(#a)"/><linearGradient id="b" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><path d="M275.517 133C196.933 133 133 196.933 133 275.516s63.933 142.517 142.517 142.517S418.034 354.1 418.034 275.516 354.101 133 275.517 133zm0 229.6c-48.095 0-87.083-38.988-87.083-87.083s38.989-87.083 87.083-87.083c48.095 0 87.083 38.988 87.083 87.083 0 48.094-38.989 87.083-87.083 87.083z" fill="url(#b)"/><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57" x2="418.31" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)"><stop offset="0" stop-color="#e09b3d"/><stop offset=".3" stop-color="#c74c4d"/><stop offset=".6" stop-color="#c21975"/><stop offset="1" stop-color="#7024c4"/></linearGradient><circle cx="418.31" cy="134.07" r="34.15" fill="url(#c)"/></svg>
+                                </a>
+  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-5 offset-lg-2">
+                        <div class="subscribe mb-50">
+                          <h6 class="custom-font stit simple-btn">Newsletter</h6>
+                          <p>Sign up to subscribe to our newsletter!</p>
+                          <form>
+                            <div class="form-group custom-font">
+                              <input
+                                type="email"
+                                name="subscribe"
+                                placeholder="Your Email"
+                              />
+                              <button class="cursor-pointer">Subscribe</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="copyrights text-center">
+                      <p>
+                        © 2022, Melon. Developed by
+                        <nuxt-link to="index">Melon labs</nuxt-link>
+                      </p>
+                    </div>
+                  </div>
+                </footer>
+      
+        <!-- jQuery -->
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/jquery-migrate-3.0.0.min.js"></script>
+  
+      <!-- plugins -->
+      <script src="js/plugins.js"></script>
+  
+      <!-- custom scripts -->
+      <script src="js/scripts.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+      <script>
+          $(document).ready(function() {
+  
+  // process the form
+  $('form #contact-form').submit(function(event) {
+  
+      // get the form data
+      // there are many ways to get this data using jQuery (you can use the class or id also)
+      var formData = {
+          'name'              : $('input[name=name]').val(),
+          'email'             : $('input[name=email]').val(),
+          'subject'    : $('input[name=subject]').val(),
+          'msg'    : $('input[name=msg]').val()
+      };
+  
+      // process the form
+      $.ajax({
+          type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+          url         : 'process.php', // the url where we want to POST
+          data        : formData, // our data object
+          dataType    : 'json', // what type of data do we expect back from the server
+                      encode          : true
+      })
+          // using the done promise callback
+          .done(function(data) {
+  
+              // log data to the console so we can see
+              console.log(data);
+  
+              // here we will handle errors and validation messages
+          });
+  
+      // stop the form from submitting the normal way and refreshing the page
+      event.preventDefault();
+  });
+  
+  });
+      </script>
+    </body>
+  </html>
+ 
